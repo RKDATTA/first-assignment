@@ -1,5 +1,5 @@
 body{
-    background-color :white;
+    margin: 0;
 }
 
 section{
@@ -16,6 +16,11 @@ h2{
     font-family: 'Bebas Neue',
     font-size: 48px;
     color:#363958
+}
+h3{
+    font-family: 'roboto';
+    font-size: 24px;
+    color: #363958;
 }
 .orange-highlight{
     color:#FF8367;
@@ -57,11 +62,76 @@ background-color: #E5E5E5;
 .one-third{
    width: 370px;
    height: 374px;
-   margin-left: 5px;
-   padding-left: 3px;
+   margin-left: 20px;
+   padding: 0 5px;
    float : left;
+   box-shadow: 10px 20px 40px gray;
+   background-color: white;
+   border-radius: 15px;
 }
 .one-third img{
     width: 100%;
     height: 200px;
+}
+.one-third gym{
+    margin-left: 135px;
+}
+.one-third p{
+    font-family: 'roboto';
+    font-size: 16px;
+    color: #6C6C6C;
+}
+#work-inquiry-area{
+    background-image: url("images/work-bg.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 1px solid blue;
+    margin: 267px;
+    height: 225px;
+    border-radius: 10px;
+}
+
+.work-single{
+    width: 40%;
+    float : left;
+    margin: 20px;
+}
+
+#work-inquiry-area h2{
+    font-family: 'Bebas Neue';
+    font-size: 64px;
+    color: white;
+    font-weight: 500;
+    margin-top: 45px;
+
+}
+
+#work-inquiry-area link-button{
+    text-decoration: none;
+    background-image: linear-gradient(45deg, lightsalmon, tomato);
+    padding: 10px 20px;
+    color: white;
+    font-weight: 700;
+    border-radius: 5px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    margin-top: 250px;
+ }
+
+footer h3{
+ text-align: center;
+ font-family: 'Bebas Neue';
+ font-size: 24px;
+ color : #696871;
+}
+footer p{
+    text-align: center;
+    font-family: 'roboto';
+    font-size: 36px;
+    color : #363958;
+}
+footer img{
+    width: 40px;
+    height: 40px;
+    margin-left : 600px;
 }
